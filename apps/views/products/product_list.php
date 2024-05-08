@@ -25,7 +25,6 @@
                 <td><?php echo $product['price']; ?></td>
                 <td><?php echo $product['name']; ?></td>
                 <td><img src="./public/assets/images/<?php echo $product['image']; ?>" alt="Product Image" width="100" height="100"></td>
-
                 <td>
                     <a href="?action=edit&id=<?php echo $product['productId']; ?>">Edit</a>| <a href="?action=show&id=<?php echo $product['productId']; ?>">View Detail</a> |
                     <a href="?action=destroy&id=<?php echo $product['productId']; ?>" onclick="return confirm('Are you sure you want to delete this product?')">Delete</a>
